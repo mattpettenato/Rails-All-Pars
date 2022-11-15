@@ -44,7 +44,7 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
-
+gem "jsonapi-serializer"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -60,6 +60,7 @@ group :development do
   gem "pry-rails"
   gem "better_errors"
   gem "binding_of_caller"
+  
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
